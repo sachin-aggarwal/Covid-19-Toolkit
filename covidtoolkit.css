@@ -1,0 +1,229 @@
+body {
+  font-family :Arial;
+}
+
+.heading{
+  margin-left: 130px;
+}
+
+#map {
+  margin: auto auto;
+  margin-top:40px; 
+	max-width: 600px;
+	min-height: 400;
+}
+#btnAction {
+	background: #3878c7;
+    padding: 10px 40px;
+    border: #3672bb 1px solid;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 0.9em;
+    cursor:pointer;
+    display:block;
+    margin: auto;
+    width: 25%;
+}
+
+#btnAction:disabled {
+    background: #6c99d2;
+}
+
+/* navigation bar*/
+
+ul {
+    /*position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active-navlink {
+    background-color: #4CAF50;
+  }
+
+.active-popup{
+  background-color: red;
+}
+
+  li:last-child {
+    border-right: none;
+  }
+
+/* Pop-up Login Form */
+
+*{box-sizing: border-box;}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#seventyfive{
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  width:205px;
+}
+
+.navbar{
+  margin-top: 140px;
+}
+
+.top{
+  background-color: orange;
+  color: wheat;
+  padding: 8px;
+}
+
+/*dropdowm profile*/
+.dropbtn {
+  background-color: rgb(152, 160, 170);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 10%;
+  margin-top: 25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3c3c46;}
+
+/* profile card */
+.card {
+  display: none;
+  left: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 2px 30px;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 9;
+  background-color: rgb(195, 195, 195);
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.anch {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, .anch:hover {
+  opacity: 0.7;
+} 
