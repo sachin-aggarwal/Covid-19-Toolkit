@@ -1,0 +1,2 @@
+# Covid-19-Toolkit
+A web based tool that is designed to monitor the location of people in the quarantine centers and store their current coordinates into the database. It also provides the users with the necessary information about Covid-19 and latest updates on the Covid-19 cases in India and across the world. It also facilitates the user to send their queries and ask for any help in case of any emergency.
