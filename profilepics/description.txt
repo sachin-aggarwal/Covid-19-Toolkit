@@ -1,0 +1,1 @@
+this folder contains the user uploaded profile pictures along with a default profile that is for the users who have yet not uploaded any profile pics 
